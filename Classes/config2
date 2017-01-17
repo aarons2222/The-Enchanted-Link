@@ -1,0 +1,50 @@
+//
+//  config.h
+//  Match the Fruits
+//
+//  Created by Nicolas J.
+//
+//
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#include <iostream>
+
+// store in app purchases product identifiers
+
+static std::string hints_5_id = "matchfruits_5_hints";
+static std::string hints_20_id = "matchfruits_20_hints";
+static std::string hints_60_id = "matchfruits_60_hints";
+static std::string unlock_all_packs = "matchfruits_packs_all";
+static std::string unlock_all_levels = "matchfruits_levels_all";
+static std::string pack_6 = "matchfruits_pack6_premium";
+static std::string pack_7 = "matchfruits_pack7_premium";
+static std::string pack_8 = "matchfruits_pack8_premium";
+static std::string pack_9 = "matchfruits_pack9_premium";
+static std::string pack_10 = "matchfruits_pack10_premium";
+
+//gamecenter
+
+static std::string achievements_id = "letsflow_pack";
+static std::string leaderboard_id = "matchfruits_leaderboard";
+
+//Google Admob banner unit id
+
+static std::string adUnitID = "ca-app-pub-XXXXXXXXXXXXXXXXXX/XXXXXXXXXX";
+
+//Google Analytics tracking id
+
+static std::string analyticsID = "XX-XXXXXXXX-X";
+
+
+//contact mail
+
+static std::string contactMail = "your@emailaddress.com";
+
+
+//app id
+
+static std::string appID = "xxxxxxxxxxxx";
+
+#endif
